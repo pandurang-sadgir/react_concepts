@@ -3,7 +3,7 @@ import MyButton from './components/Buttons/button';
 import Profile from './components/displaying data/displaying_data';
 import RederComponent  from './components/conditonal_rendering/render_these_component'
 import Product from './components/rendering_list_array/rendering_order_list';
-
+import RespondEvent from './components/responding_events/responding_event';
 function App() {
   return (
     <><div className="heading">
@@ -22,6 +22,8 @@ function App() {
       <RederComponent/><br/>
       <h2>Rendering list of items from array</h2>
       <Product/>
+      <h2>Respoding to events</h2>
+      <RespondEvent/>
 
     </>
   );
