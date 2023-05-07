@@ -1,5 +1,6 @@
 import './App.css';
 import MyButton from './components/Buttons/button';
+import Profile from './components/displaying data/displaying_data';
 
 
 function App() {
@@ -13,6 +14,9 @@ function App() {
       <MyButton />
       <MyButton />
       <MyButton />
+      <br></br>
+      <h2>Displaying data from object</h2>
+      <Profile/>
     </>
   );
 }

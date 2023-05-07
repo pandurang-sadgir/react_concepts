@@ -1,0 +1,16 @@
+#userCard{
+    border: 0.1rem grey solid;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 2rem;
+}
+.userImage{
+    border-radius: 50%;
+    margin-top: 1rem;
+    /* padding-top: 2rem; */
+}
+
