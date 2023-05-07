@@ -2,7 +2,7 @@ import './App.css';
 import MyButton from './components/Buttons/button';
 import Profile from './components/displaying data/displaying_data';
 import RederComponent  from './components/conditonal_rendering/render_these_component'
-
+import Product from './components/rendering_list_array/rendering_order_list';
 
 function App() {
   return (
@@ -19,7 +19,9 @@ function App() {
       <h2>Displaying data from object</h2>
       <Profile/>
       <h2>Conditional rendering</h2>
-      <RederComponent/>
+      <RederComponent/><br/>
+      <h2>Rendering list of items from array</h2>
+      <Product/>
 
     </>
   );

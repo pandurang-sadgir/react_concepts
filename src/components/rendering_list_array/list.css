@@ -1,0 +1,11 @@
+.listItems{
+    border: 0.1rem grey solid;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    margin-top: 2rem;
+    padding-left: 5rem;
+    font-size: 1.5rem;
+}
