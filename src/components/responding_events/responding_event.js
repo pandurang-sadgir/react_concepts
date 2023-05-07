@@ -1,7 +1,8 @@
+import './button.css'
 // creating button component inside the componet 
 function Button (){
     return (
-        <button onClick={handleClick}>click me</button>
+        <button  className='button' onClick={handleClick}>click me</button>
     )
 }
 
