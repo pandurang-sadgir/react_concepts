@@ -6,6 +6,7 @@ import Product from './components/rendering_list_array/rendering_order_list';
 import RespondEvent from './components/responding_events/responding_event';
 import CountClick from './components/update_state/infoRemember'
 import ShareData from './components/sharing_data/sharing_data_bw_component';
+import ProfileC from './components/passing_props_componet/passing_props_component';
 function App() {
   return (
     <><div className="heading">
@@ -31,7 +32,8 @@ function App() {
       <CountClick/>
       <h2>Sharing data between Component </h2>
       <ShareData/>
-
+      <h2>Passing Props to Component</h2>
+      <ProfileC/>
     </>
   );
 }
